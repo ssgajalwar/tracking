@@ -1,0 +1,42 @@
+:root{
+    --playbg:hsl(195, 74%, 62%);
+    --mainbg:hsl(226, 43%, 10%);
+    --cardsbg:hsl(235, 46%, 20%);
+    --cardselectedbg:hsl(235, 45%, 61%);
+    --profilebg:hsl(246, 80%, 60%);
+   
+} 
+
+.bg{
+    background-color: hsl(15, 100%, 70%);
+   
+    height: 10rem;
+    width: 12rem;
+    color: white;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.card-row{
+    display: flex;
+    justify-content: space-between;
+}
+.card-row>svg{
+    padding: 1.5rem 1rem ;
+}
+.main{
+    background-color: var(--cardsbg);
+    transform: translateY(2rem);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.title{
+    font-weight: 500;
+}
+.time{
+    font-weight: 400;
+}
+.last-week{
+    margin-top: 0;
+    font-size: 0.8rem;
+    padding-bottom:1rem;
+}

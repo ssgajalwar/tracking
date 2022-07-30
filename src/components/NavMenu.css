@@ -1,0 +1,27 @@
+:root{
+    --playbg:hsl(195, 74%, 62%);
+    --mainbg:hsl(226, 43%, 10%);
+    --cardsbg:hsl(235, 46%, 20%);
+    --cardselectedbg:hsl(235, 45%, 61%);
+    --profilebg:hsl(246, 80%, 60%);
+} 
+li{
+    list-style: none;
+   
+}
+.navmenu{
+    margin-top: -2rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: var(--cardsbg);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    z-index: -100;
+}
+ul{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
